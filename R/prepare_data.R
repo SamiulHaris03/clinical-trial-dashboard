@@ -24,3 +24,13 @@ ae_rate <- patients_per_arm |>
   mutate(events_per_patient = round(n_events / n_patients, 1))
 
 ae_rate
+
+
+# Lab results: treated patients, scheduled visits, non-missing values
+
+adlb_trt = adlb |>
+  filter(
+    TRT01A != 'Screen Failure',
+    !is.na(AVISITN),
+    !is.na(AVAL)
+  )
