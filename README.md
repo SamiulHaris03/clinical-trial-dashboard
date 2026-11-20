@@ -66,11 +66,3 @@ clinical-trial-dashboard/
 ├── explore.R           # initial data exploration
 └── README.md
 ```
-
-## Screenshots
-
-<!-- Add screenshots to a screenshots/ folder and uncomment these lines -->
-<!-- ![Demographics tab](screenshots/demographics.png) -->
-<!-- ![Adverse events tab](screenshots/adverse_events.png) -->
-<!-- ![Lab results tab](screenshots/lab_results.png) -->
-<!-- ![Data checks tab](screenshots/data_checks.png) -->
